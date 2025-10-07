@@ -1,4 +1,31 @@
 'use client';
+'use client';
+
+import { useState } from 'react';
+
+const languages = ['en', 'zh', 'hi', 'es', 'ar', 'bn', 'pt', 'ru', 'tl', 'ceb'];
+
+const translations = {
+  en: {
+    title: '🌍 Hustelium',
+    description: 'Connect to a global community of side hustlers, mentors, coaches, and DAO opportunities.',
+    placeholder: 'Ask your Hustelium coach a question...',
+    button: 'Send',
+  },
+  fr: {
+    title: '🌍 Hustelium',
+    description: 'Connecte-toi à une communauté mondiale de side hustlers, mentors, coachs et opportunités DAO.',
+    placeholder: 'Pose une question à ton coach Hustelium...',
+    button: 'Envoyer',
+  },
+  es: {
+    title: '🌍 Hustelium',
+    description: 'Conéctate con una comunidad global de emprendedores, mentores y oportunidades DAO.',
+    placeholder: 'Haz una pregunta a tu coach Hustelium...',
+    button: 'Enviar',
+  },
+  // Tu peux ajouter les autres langues ici plus tard
+};
 
 import { useState } from 'react';
 

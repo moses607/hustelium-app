@@ -11,4 +11,5 @@ export default function Navbar() {
       <Link href="/communauté" className="hover:underline">Communauté</Link>
     </nav>
   );
+<Link href="/commerce" className="hover:underline">Commerce</Link>
 }

@@ -12,4 +12,5 @@ export default function Navbar() {
     </nav>
   );
 <Link href="/commerce" className="hover:underline">Commerce</Link>
+<Link href="/devis" className="hover:underline">Devis</Link>
 }

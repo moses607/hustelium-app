@@ -42,4 +42,5 @@ export default function Home() {
       </button>
     </main>
   );
+const languages = ['en', 'zh', 'hi', 'es', 'ar', 'bn', 'pt', 'ru', 'tl', 'ceb'];
 }

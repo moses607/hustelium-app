@@ -43,4 +43,5 @@ export default function Home() {
     </main>
   );
 const languages = ['en', 'zh', 'hi', 'es', 'ar', 'bn', 'pt', 'ru', 'tl', 'ceb'];
+const languages = ['en', 'zh', 'hi', 'es', 'ar', 'bn', 'pt', 'ru', 'tl', 'ceb'];
 }
